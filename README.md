@@ -1,5 +1,5 @@
 
-  # Test
+  # test
   ----------------------------------
   # Table Of Contents
   -------------------
@@ -9,8 +9,8 @@
   * [Credits](#credits)
   * [License](#license)
   * [Testing](#testing)
-  * [Github Username](#githubUsername)
-  * [Email Address](#emailAddress)
+  * [Github-Username](#githubUsername)
+  * [Email-Address](#emailAddress)
   
   ## Description
   test
@@ -30,10 +30,10 @@
   ## Testing
    test
   --
-  ## Github Username
+  ## Github-Username
   [Github Profile](https://github.com/test)
   --
-  ## Email Address
+  ## Email-Address
   If you have any questions you can reach me at:
    test
   
