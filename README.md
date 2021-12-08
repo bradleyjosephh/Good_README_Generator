@@ -1,11 +1,11 @@
 
-  # test
+  # Good_README_Generator
   ----------------------------------
   # Table Of Contents
   -------------------
   * [Description](#description)
   * [Installation](#installation)
-  * [Usage](#projectUse)
+  * [Usage](#usage)
   * [Credits](#credits)
   * [License](#license)
   * [Testing](#testing)
@@ -13,27 +13,27 @@
   * [Email-Address](#email-address)
   
   ## Description
-  test
+  Running a readme generator through node terminal in order to create a neat readme file with table of contents and other nice features.
   --
   ## Installation
-   test
+   npm i
   --
   ## Usage
-   test
+   Bradley
   --
   ## Credits
-   test
+   No teammates
   --
   ## License
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   --
   ## Testing
-   tset
+   Yes
   --
   ## Github-Username
-  [Github Profile](https://github.com/test)
+  [Github Profile](https://github.com/bradleyjosephh)
   --
   ## Email-Address
   If you have any questions you can reach me at:
-   test
+   bradleyjosephh@gmail.com
   
