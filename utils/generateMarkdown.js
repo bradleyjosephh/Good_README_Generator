@@ -11,8 +11,8 @@ function generateMarkdown(answer) {
   * [Credits](#credits)
   * [License](#license)
   * [Testing](#testing)
-  * [Github-Username](#githubUsername)
-  * [Email-Address](#emailAddress)
+  * [Github-Username](#github-username)
+  * [Email-Address](#email-address)
   
   ## Description
   ${answer.description}

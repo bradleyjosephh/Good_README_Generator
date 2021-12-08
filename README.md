@@ -9,8 +9,8 @@
   * [Credits](#credits)
   * [License](#license)
   * [Testing](#testing)
-  * [Github-Username](#githubUsername)
-  * [Email-Address](#emailAddress)
+  * [Github-Username](#github-username)
+  * [Email-Address](#email-address)
   
   ## Description
   test
@@ -28,7 +28,7 @@
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   --
   ## Testing
-   test
+   tset
   --
   ## Github-Username
   [Github Profile](https://github.com/test)
