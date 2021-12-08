@@ -36,18 +36,19 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'Github Username',
+    name: 'githubUsername',
     message: 'Provide your Github Username:',
   },
   {
     type: 'input',
-    name: 'Email Address',
+    name: 'emailAddress',
     message: 'Provide your email address:',
   }
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
+    
 }
 
 // function to initialize program
