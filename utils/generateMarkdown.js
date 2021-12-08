@@ -11,8 +11,8 @@ function generateMarkdown(answer) {
   * [Credits](#credits)
   * [License](#license)
   * [Testing](#testing)
-  * [Github Username](#githubUsername)
-  * [Email Address](#emailAddress)
+  * [Github-Username](#githubUsername)
+  * [Email-Address](#emailAddress)
   
   ## Description
   ${answer.description}
@@ -32,10 +32,10 @@ function generateMarkdown(answer) {
   ## Testing
    ${answer.testing}
   --
-  ## Github Username
+  ## Github-Username
   [Github Profile](https://github.com/${answer.githubUsername})
   --
-  ## Email Address
+  ## Email-Address
   If you have any questions you can reach me at:
    ${answer.emailAddress}
   
