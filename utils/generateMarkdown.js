@@ -1,21 +1,45 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.projectName}
+function generateMarkdown(answer) {
+  var markdownContent = `
+  # ${answer.projectName}
   ----------------------------------
-  ## ${answer.description}
+  # Table Of Contents
+  -------------------
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#projectUse)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Testing](#testing)
+  * [Github Username](#githubUsername)
+  * [Email Address](#emailAddress)
+  
+  ## Description
+  ${answer.description}
   --
-  ## ${answer.installation}
+  ## Installation
+   ${answer.installation}
   --
-  ## ${answer.projectUse}
+  ## Usage
+   ${answer.projectUse}
   --
-  ## ${answer.credits}
+  ## Credits
+   ${answer.credits}
   --
-  ## ${answer.license}
+  ## License
+   ${answer.license}
   --
-  ## ${answer.githubUsername}
+  ## Testing
+   ${answer.testing}
   --
-  ## ${answer.emailAdress}
-`;
+  ## Github Username
+   ${answer.githubUsername}
+  --
+  ## Email Address
+   ${answer.emailAddress}
+`
+return markdownContent
+;
 }
 
 module.exports = generateMarkdown;

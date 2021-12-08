@@ -36,6 +36,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'testing',
+        message: 'Manual testing:',
+    },
+    {
+        type: 'input',
         name: 'githubUsername',
         message: 'Provide your Github Username:',
     },
@@ -52,11 +57,13 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {
+ function init() {
     /* Pass your questions in here */
     inquirer.prompt(questions)
-        .then((answers) => {
+        .then(async (answers) => {
             console.log(answers)
+            var markdownPopulate = await generateMarkdown(answers)
+            console.log(markdownPopulate)
         })
         .catch((error) => {
             if (error) {
