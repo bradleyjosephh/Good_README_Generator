@@ -27,16 +27,18 @@ function generateMarkdown(answer) {
    ${answer.credits}
   --
   ## License
-   ${answer.license}
+  ![GitHub license](https://img.shields.io/badge/license-${answer.license}-blue.svg)
   --
   ## Testing
    ${answer.testing}
   --
   ## Github Username
-   ${answer.githubUsername}
+  [Github Profile](https://github.com/${answer.githubUsername})
   --
   ## Email Address
+  If you have any questions you can reach me at:
    ${answer.emailAddress}
+  
 `
 return markdownContent
 ;

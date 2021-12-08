@@ -30,7 +30,8 @@ const questions = [
         message: 'If you worked on the project as a team or an organization, list your collaborators/team members:',
     },
     {
-        type: 'input',
+        type: 'list',
+        choices: ["MIT", "ISC", "APACHE2.0", "GPL3.0"],
         name: 'license',
         message: 'List the license information:',
     },
@@ -63,6 +64,9 @@ function writeToFile(fileName, data) {
         .then(async (answers) => {
             console.log(answers)
             var markdownPopulate = await generateMarkdown(answers)
+            fs.writeFileSync("README.md", markdownPopulate, function (error){
+                if (error) console.error(error)
+            })
             console.log(markdownPopulate)
         })
         .catch((error) => {
