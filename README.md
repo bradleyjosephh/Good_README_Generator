@@ -13,22 +13,22 @@
   * [Email-Address](#email-address)
   
   ## Description
-  Running a readme generator through node terminal in order to create a neat readme file with table of contents and other nice features.
+  "A quick and simple readme generator for anytime use."
   --
   ## Installation
-   npm i
+   "git clone https://github.com/Good_README_Generator
   --
   ## Usage
    Bradley
   --
   ## Credits
-   No teammates
+   No team
   --
   ## License
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   --
   ## Testing
-   Yes
+   Jest
   --
   ## Github-Username
   [Github Profile](https://github.com/bradleyjosephh)
