@@ -13,22 +13,22 @@
   * [Email-Address](#email-address)
   
   ## Description
-  "A quick and simple readme generator for anytime use."
+  This is a quick and simple readme generator using inquirer.
   --
   ## Installation
-   "git clone https://github.com/Good_README_Generator
+   git clone "https://github.com/Good_README_Generator
   --
   ## Usage
-   Bradley
+   "node index.js"
   --
   ## Credits
-   No team
+   N/A
   --
   ## License
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   --
   ## Testing
-   Jest
+   There no tests being run.
   --
   ## Github-Username
   [Github Profile](https://github.com/bradleyjosephh)
